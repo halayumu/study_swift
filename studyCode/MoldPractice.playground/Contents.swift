@@ -5,4 +5,5 @@ import UIKit
 //bodyTemp = 36.5
 
 var bodyTemp = 36
-bodyTemp = Int(36.5)
+var bouble = Double(bodyTemp)
+bouble = 36.5
