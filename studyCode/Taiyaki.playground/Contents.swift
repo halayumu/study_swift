@@ -1,5 +1,6 @@
 struct Taiyaki {
-    var nakami = "あんこ"
+    
+    var nakami = "anko"
     func sayNakami(){
         print("中身は"+nakami+"です。")
     }
