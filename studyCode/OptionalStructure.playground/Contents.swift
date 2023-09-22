@@ -12,9 +12,19 @@ struct MemberInformation {
         print(age)
         print(mail)
         print(password)
-        print(nickname)
+         if let unwrap = nickname {
+             print(unwrap)
+         }else{
+             print(nickname)
+         }
     }
 }
 
-var member = MemberInformation()
-member.showValue()
+var member1 = MemberInformation()
+member1.showValue()
+
+print("-------------------")
+
+var member2 = member1
+member2.nickname = "hogehoge"
+member2.showValue()
